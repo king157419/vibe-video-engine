@@ -1,0 +1,7 @@
+Use your native image generation tool (image_gen) to create ONE new portrait illustration (tall portrait, 2:3 or 9:16) and save it as 07_glow.png in the current directory.
+
+Start from the first attached image (ref_read.png): keep the same scene, composition, camera, colors and art style - an adult in a green sweater sitting on a wooden floor by a night window with city lights, reading a softly glowing picture book together with a small curly-haired child beside a warm table lamp; warm gouache/watercolor picture-book look, gentle grain, faces hidden or turned away.
+
+The ONE change: the small child must be the adult's inner child-self, rendered like the glowing child in the second attached image (ref_glow.png): softly luminous and slightly translucent, with a soft golden rim light and a faint warm inner glow, as if made of light, while still clearly a small child. The adult stays solid and ordinary.
+
+No text, no letters, no watermark, no border. Do not write code to draw it; use the image generation tool. If the tool saves elsewhere, copy the result to ./07_glow.png. Reply with the file path.

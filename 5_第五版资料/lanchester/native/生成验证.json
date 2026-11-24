@@ -1,0 +1,12 @@
+{
+  "seed": 19161026,
+  "n": 20000,
+  "gold_wins": 14295,
+  "gold_pct": 71.475,
+  "gold_survivors_if_win": 3.623504721930745,
+  "points": 20000,
+  "layout": "four_depth_cloud",
+  "point_meta": "cloud_meta.json",
+  "one_point_one_trial": true,
+  "frames": 5220
+}

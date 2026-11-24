@@ -1,0 +1,18 @@
+{
+  "n": 20000,
+  "gold": 14295,
+  "blue": 5705,
+  "min_alpha": 12,
+  "min_x": 72.5685,
+  "max_x": 1760.2699,
+  "min_y": 46.4765,
+  "max_y": 696.0619,
+  "layer_counts": [
+    4979,
+    4951,
+    4968,
+    5102
+  ],
+  "all_indices_in_order": true,
+  "cue_sha256": "867fd4cb2cb3529a8fe059fa10f9325094fc70d9aac2b737dc2058ae04c440dd"
+}

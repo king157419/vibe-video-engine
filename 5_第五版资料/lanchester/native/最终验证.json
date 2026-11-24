@@ -1,0 +1,26 @@
+{
+  "metrics": {
+    "video": "D:\\desk\\claudex\\24\\video-engine\\out\\v4\\lanchester\\native\\final.mp4",
+    "frames_every_5s": 35,
+    "lum_mean": 12.9,
+    "lum_max_frame": 19.0,
+    "edge_mean_pct": 0.76,
+    "edge_median_pct": 0.86,
+    "edge_frames_over_4pct": [],
+    "freezes_over_8s": [],
+    "motion_mean_pct": 1.671,
+    "loudness_I": -16.0,
+    "loudness_LRA": 9.4,
+    "true_peak": -4.3,
+    "pass_lum": true,
+    "pass_edge": true
+  },
+  "zero_samples_peak": 0,
+  "silence": [
+    136.5,
+    139.5
+  ],
+  "bell_frames": 7,
+  "stutter": "扫描 D:\\desk\\claudex\\24\\video-engine\\out\\v4\\lanchester\\native\\final.mp4  0.0–174.0s，5220 帧，中位运动量 0.178\n2:16.50  ( 136.50s)  POP    变化量 3.1，局部中位数 0.18\n2:19.50  ( 139.50s)  POP    变化量 3.2，局部中位数 0.19\n",
+  "render_frames": 5220
+}

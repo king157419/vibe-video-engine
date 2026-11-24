@@ -1,0 +1,10 @@
+@page { size: 120mm 200mm; margin: 8mm 6mm; }
+html, body { background: #fbf8f1; }
+body { font-family: "Microsoft YaHei", sans-serif; font-size: 15px; line-height: 1.7; color: #222; margin: 0; padding: 0; max-width: none; overflow-wrap: anywhere; }
+h1 { font-size: 19px; line-height: 1.45; margin: 0 0 6px; }
+h2 { font-size: 16.5px; margin: 14px 0 4px; padding-bottom: 2px; border-bottom: 1px solid #ddd2bd; break-after: avoid-page; page-break-after: avoid; }
+p { margin: 0 0 6px; } ul, ol { margin: 0 0 6px; padding-left: 1.4em; } li { margin: 0 0 3px; break-inside: avoid; }
+h2 + ul, h2 + ol, h2 + p { break-before: avoid-page; }
+table { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 13px; }
+th, td { border: 1px solid #ccc; padding: 2px 4px; vertical-align: top; }
+header#title-block-header { display: none; }

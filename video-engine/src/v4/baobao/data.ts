@@ -1,0 +1,11 @@
+import cueJson from '../../../public/v4/baobao/cue.json';
+import subsJson from '../../../public/v4/baobao/subs.json';
+import metaJson from '../../../public/v4/baobao/timeline_meta.json';
+import type {Sub, Chapter} from '../kit';
+export const cue = cueJson;
+export const meta = metaJson;
+export const subs: Sub[] = subsJson;
+export const chapters: Chapter[] = metaJson.chapters;
+export const DUR = cueJson.dur;
+export const FPS = 30;
+export const row = (key: string) => meta.rows.find(r => r.key === key)!;

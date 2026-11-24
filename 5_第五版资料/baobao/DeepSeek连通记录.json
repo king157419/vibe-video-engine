@@ -1,0 +1,10 @@
+[
+  {
+    "base": "https://1052.xin/v1",
+    "status": 401
+  },
+  {
+    "base": "http://1052.xin/v1",
+    "status": 401
+  }
+]

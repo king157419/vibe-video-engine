@@ -1,0 +1,15 @@
+p = 'main.js'; s = open(p, encoding='utf-8').read()
+def rep(a, b):
+    global s
+    assert s.count(a) == 1, (a, s.count(a)); s = s.replace(a, b)
+rep("silkMat('#efe4d2', { rough: .28, metal: .38 })", "silkMat('#f3e8d6', { rough: .28, metal: .16 })")
+rep("hemi.intensity = .35 * rv;", "hemi.intensity = .45 * rv; keyLight.intensity = 1.5 * rv;")
+rep("look(V(lerp(-2, -6, eio(u)), 3.5, lerp(46, 42, eio(u))), V(-5.5, -.6, 0), 30);", "look(V(lerp(-4, -8, eio(u)), 3.5, lerp(54, 50, eio(u))), V(-9.5, -1.6, 0), 30);")
+rep("look(V(lerp(-7, -4, eio(u)), 5.5, lerp(40, 36, eio(u))), V(-5.2, -.4, 0), 30);", "look(V(lerp(-9, -6, eio(u)), 5.5, lerp(44, 40, eio(u))), V(-7.6, -.6, 0), 30);")
+rep("V(lerp(-5.5, 0, eio(seg(t, 27.6, 28.9))), lerp(-.8, 0, eio(seg(t, 27.6, 28.9))), 0), 30);", "V(lerp(-7, 0, eio(seg(t, 28.2, 29.2))), lerp(-2.2, 0, eio(seg(t, 28.2, 29.2))), 0), 30);")
+rep("{ id: 't9', a: 26.25, b: 29.2,", "{ id: 't9', a: 26.25, b: 28.75,")
+rep("strap.scale.y = 5.5; strap.position.y = -.4; mask.add(strap);", "strap.scale.y = 5.5; strap.position.y = -.4;")
+rep("look(V(0, 2.5, lerp(44, 52, eo(u))), V(0, .4, 0), 30);", "look(V(0, 2.5, lerp(52, 60, eo(u))), V(0, .4, 0), 30);")
+rep("pillow.position.set(0, -5.4, 0);", "pillow.position.set(0, -5.6, 0);")
+open(p, 'w', encoding='utf-8').write(s)
+print('patched')

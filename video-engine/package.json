@@ -1,0 +1,26 @@
+{
+  "name": "video-engine",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.530",
+    "@remotion/cli": "^4.0.530",
+    "@remotion/layout-utils": "^4.0.530",
+    "@remotion/media-utils": "^4.0.530",
+    "@remotion/noise": "^4.0.530",
+    "@remotion/paths": "^4.0.530",
+    "@types/react": "^19.3.0",
+    "hanzi-writer-data": "^2.0.1",
+    "perfect-freehand": "^1.2.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.530",
+    "roughjs": "^4.6.6",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,12 @@
+import subJson from '../../../../public/v4/lanchester/native/subs.json';
+import cue from '../../../../public/v4/lanchester/native/cue.json';
+import metadata from '../../../../public/v4/lanchester/native/timeline_meta.json';
+import numbers from '../../../../public/v4/lanchester/native/numbers.json';
+import type {Sub, Chapter} from '../../kit';
+export const subs: Sub[] = subJson;
+export const DUR = cue.dur;
+export const meta = metadata;
+export const chapters: Chapter[] = meta.chapters;
+export const outcomes = numbers.open.outcomes;
+export const outcomeGroups = Array.from({length: 2000}, (_,i)=>outcomes.slice(i*10,i*10+10).filter(v=>v>0).length/10);
+export const histogram = numbers.open.histogram;

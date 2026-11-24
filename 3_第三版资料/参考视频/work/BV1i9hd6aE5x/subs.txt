@@ -1,0 +1,38 @@
+4|9|你伸手，去拿一杯水。|You reach for a glass of water.
+9|15|看、比较、修正——再看，再比较，再修正。|Look. Compare. Correct. And again. And again.
+15|21|这个循环如此日常，你从未注意过它。|A loop so ordinary, you have never noticed it.
+39|45|舵手无法命令大海。|A steersman cannot command the sea.
+45|51|他只做一件事：察觉偏差，然后修正。|He does one thing: notice the error, then correct it.
+52|58|风一直在变，航向却可以不变。|The wind keeps changing. The course need not.
+59|64|信息从结果流回原因——这就是反馈回路。|Information flows from effect back to cause — a feedback loop.
+65|71|整个控制论，都从这个圆开始。|All of cybernetics begins with this circle.
+73|79|1788年，瓦特给蒸汽机装上了离心调速器。|1788: James Watt fits his steam engine with a centrifugal governor.
+79|86|转得越快，飞球张得越开，阀门就关得越小。|The faster it spins, the wider the balls fly — and the more the valve closes.
+86|92|机器第一次学会了约束自己。|A machine had learned to restrain itself.
+92|99|1868年，麦克斯韦写下了它稳定运转的数学条件。|In 1868, Maxwell wrote down the mathematics of its stability.
+101|107|二战期间，数学家诺伯特·维纳在思考一个难题：|During the Second World War, the mathematician Norbert Wiener faced a problem:
+107|113|一架正在规避的敌机，片刻之后会在哪里？|where will an evading aircraft be, moments from now?
+113|120|他意识到：飞行员本身，也是一个反馈回路。|He realized that the pilot himself was a feedback loop.
+121|128|1948年，维纳出版《控制论》——关于动物与机器中的控制与通信。|In 1948 he published Cybernetics: control and communication in the animal and the machine.
+128|137|神经与电路，生命与机器，第一次被写进同一种语言。|Nerves and circuits, life and machine — for the first time, written in one language.
+139|145|反馈有两种。|Feedback comes in two kinds.
+145|152|负反馈抵消偏差——你的体温因此守在37℃上下。|Negative feedback cancels deviation — it holds your body near 37 °C.
+152|159|正反馈放大偏差——话筒靠近音箱，一丝杂音就变成啸叫。|Positive feedback amplifies it — bring a mic to a speaker, and a hiss becomes a howl.
+159|166|冰雪消融，地面变暗，吸热更多，融化更快。|Ice melts, the ground darkens, absorbs more heat — and melts faster.
+168|173|一种，让世界保持稳定。|One keeps the world steady.
+173|179|另一种，让世界发生改变。|The other makes it change.
+181|187|艾什比定律：调节者的多样性，必须跟得上扰动的多样性。|Ashby's law: a regulator must be as varied as the disturbances it faces.
+188|193|一个系统能驾驭多复杂的世界，取决于它自身有多丰富。|A system can only master a world as rich as itself.
+195|202|1954年，钱学森出版《工程控制论》，把这门学问带向火箭与制导。|1954: Qian Xuesen publishes Engineering Cybernetics, carrying it into rockets and guidance.
+205|210|从调速器到自动驾驶，从电网到人工智能——|From governors to autopilots, from power grids to AI —
+210|215|反馈回路，悄悄接管了现代世界。|feedback loops quietly came to run the modern world.
+216|221|而控制论最深的一步，是把目光转向观察者自己。|But its deepest step was to turn and look at the observer.
+223|229|二阶控制论说：观察者，也在系统之中。|Second-order cybernetics: the observer is part of the system.
+230|235|你在刷推荐流的时候，推荐流也在刷你。|While you scroll the feed, the feed is scrolling you.
+236|242|你点击，它学习；它推送，你改变。|You click, it learns. It suggests, you change.
+243|250|当回路只奖励“更像你”的东西，世界就越缩越小。|When a loop rewards only “more of you”, the world keeps shrinking.
+251|255|你不在回路之外。|You are not outside the loop.
+256|261|你就是回路的一部分。|You are part of it.
+273|279|控制论不教你如何控制世界。|Cybernetics does not teach you to control the world.
+279|286|它教你在不确定之中，一次次校准自己。|It teaches you to steer — correcting yourself, again and again, through uncertainty.
+286|293|问题从来不是有没有反馈，而是——你选择倾听哪一个。|The question was never whether there is feedback, but which one you choose to hear.

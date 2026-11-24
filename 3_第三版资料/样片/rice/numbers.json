@@ -1,0 +1,525 @@
+{
+ "assumptions": {
+  "N0_per_g": 1000,
+  "room_C": 30,
+  "fridge_C": 4,
+  "lag_h": 1.5,
+  "doubling_min": 25,
+  "toxin_threshold_per_g": 100000.0,
+  "left_start": "12:00",
+  "left_end": "18:00",
+  "right_dinner": "19:00",
+  "right_room_h": 1.0,
+  "right_end_nextday": "18:00",
+  "residual_spore_frac": 0.01
+ },
+ "facts": {
+  "cereulide_stable_C": 121,
+  "cereulide_stable_min": 80,
+  "cereulide_stable_min_fda": 30,
+  "spore_kill_C": 121,
+  "spore_kill_min": 3,
+  "toxin_count_low": 100000.0,
+  "toxin_count_high": 100000000.0,
+  "fridge_within_h_FSA": 1,
+  "fridge_within_h_USDA": 2,
+  "usda_hot_day_C": 32,
+  "rice_fridge_max_days": 1,
+  "reheat_times_max": 1,
+  "emetic_min_growth_C": 10,
+  "doubling_range_min": [
+   20,
+   30
+  ]
+ },
+ "left": {
+  "hours": 6,
+  "doublings": 10.8,
+  "n_end": 1782888,
+  "t_threshold_h": 4.2683,
+  "t_threshold_hhmm": "04:16",
+  "clock_threshold": "16:16",
+  "clock_lag_end": "13:30"
+ },
+ "right": {
+  "n": 1000,
+  "calendar_h": 23,
+  "room_h": 1.0,
+  "fridge_h": 22.0
+ },
+ "stopwatch": {
+  "A": {
+   "calendar_h": 6,
+   "room_h": 6
+  },
+  "B": {
+   "calendar_h": 23,
+   "room_h": 1.0
+  }
+ },
+ "reheat": {
+  "left_after": 10.0,
+  "right_after": 1000,
+  "toxin_left": 1.0,
+  "toxin_right": 0.0
+ },
+ "table_15min": [
+  {
+   "t_h": 0.0,
+   "clock": "12:00",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 0.25,
+   "clock": "12:15",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 0.5,
+   "clock": "12:30",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 0.75,
+   "clock": "12:45",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 1.0,
+   "clock": "13:00",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 1.25,
+   "clock": "13:15",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 1.5,
+   "clock": "13:30",
+   "left": 1000,
+   "log10_left": 3.0,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 1.75,
+   "clock": "13:45",
+   "left": 1516,
+   "log10_left": 3.181,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 2.0,
+   "clock": "14:00",
+   "left": 2297,
+   "log10_left": 3.361,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 2.25,
+   "clock": "14:15",
+   "left": 3482,
+   "log10_left": 3.542,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 2.5,
+   "clock": "14:30",
+   "left": 5278,
+   "log10_left": 3.722,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 2.75,
+   "clock": "14:45",
+   "left": 8000,
+   "log10_left": 3.903,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 3.0,
+   "clock": "15:00",
+   "left": 12126,
+   "log10_left": 4.084,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 3.25,
+   "clock": "15:15",
+   "left": 18379,
+   "log10_left": 4.264,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 3.5,
+   "clock": "15:30",
+   "left": 27858,
+   "log10_left": 4.445,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 3.75,
+   "clock": "15:45",
+   "left": 42224,
+   "log10_left": 4.626,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 4.0,
+   "clock": "16:00",
+   "left": 64000,
+   "log10_left": 4.806,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 4.25,
+   "clock": "16:15",
+   "left": 97006,
+   "log10_left": 4.987,
+   "toxin_left": 0.0,
+   "right": 1000
+  },
+  {
+   "t_h": 4.5,
+   "clock": "16:30",
+   "left": 147033,
+   "log10_left": 5.167,
+   "toxin_left": 0.0279,
+   "right": 1000
+  },
+  {
+   "t_h": 4.75,
+   "clock": "16:45",
+   "left": 222861,
+   "log10_left": 5.348,
+   "toxin_left": 0.073,
+   "right": 1000
+  },
+  {
+   "t_h": 5.0,
+   "clock": "17:00",
+   "left": 337794,
+   "log10_left": 5.529,
+   "toxin_left": 0.1413,
+   "right": 1000
+  },
+  {
+   "t_h": 5.25,
+   "clock": "17:15",
+   "left": 512000,
+   "log10_left": 5.709,
+   "toxin_left": 0.2448,
+   "right": 1000
+  },
+  {
+   "t_h": 5.5,
+   "clock": "17:30",
+   "left": 776047,
+   "log10_left": 5.89,
+   "toxin_left": 0.4017,
+   "right": 1000
+  },
+  {
+   "t_h": 5.75,
+   "clock": "17:45",
+   "left": 1176267,
+   "log10_left": 6.071,
+   "toxin_left": 0.6395,
+   "right": 1000
+  },
+  {
+   "t_h": 6.0,
+   "clock": "18:00",
+   "left": 1782888,
+   "log10_left": 6.251,
+   "toxin_left": 1.0,
+   "right": 1000
+  }
+ ],
+ "grid": {
+  "cols_h": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "rows": {
+   "桌上30°C": [
+    "睡",
+    "长",
+    "长",
+    "长",
+    "毒",
+    "毒"
+   ],
+   "冰箱 4°C": [
+    "停",
+    "停",
+    "停",
+    "停",
+    "停",
+    "停"
+   ]
+  }
+ },
+ "sensitivity": [
+  {
+   "n0": 100,
+   "lag_h": 1.5,
+   "td_min": 25,
+   "t_thr_h": 5.65,
+   "n6": 178289,
+   "over": true
+  },
+  {
+   "n0": 100,
+   "lag_h": 1.5,
+   "td_min": 30,
+   "t_thr_h": 6.48,
+   "n6": 51200,
+   "over": false
+  },
+  {
+   "n0": 100,
+   "lag_h": 1.5,
+   "td_min": 40,
+   "t_thr_h": 8.14,
+   "n6": 10763,
+   "over": false
+  },
+  {
+   "n0": 100,
+   "lag_h": 2.1,
+   "td_min": 25,
+   "t_thr_h": 6.25,
+   "n6": 65711,
+   "over": false
+  },
+  {
+   "n0": 100,
+   "lag_h": 2.1,
+   "td_min": 30,
+   "t_thr_h": 7.08,
+   "n6": 22286,
+   "over": false
+  },
+  {
+   "n0": 100,
+   "lag_h": 2.1,
+   "td_min": 40,
+   "t_thr_h": 8.74,
+   "n6": 5768,
+   "over": false
+  },
+  {
+   "n0": 1000,
+   "lag_h": 1.5,
+   "td_min": 25,
+   "t_thr_h": 4.27,
+   "n6": 1782888,
+   "over": true
+  },
+  {
+   "n0": 1000,
+   "lag_h": 1.5,
+   "td_min": 30,
+   "t_thr_h": 4.82,
+   "n6": 512000,
+   "over": true
+  },
+  {
+   "n0": 1000,
+   "lag_h": 1.5,
+   "td_min": 40,
+   "t_thr_h": 5.93,
+   "n6": 107635,
+   "over": true
+  },
+  {
+   "n0": 1000,
+   "lag_h": 2.1,
+   "td_min": 25,
+   "t_thr_h": 4.87,
+   "n6": 657114,
+   "over": true
+  },
+  {
+   "n0": 1000,
+   "lag_h": 2.1,
+   "td_min": 30,
+   "t_thr_h": 5.42,
+   "n6": 222861,
+   "over": true
+  },
+  {
+   "n0": 1000,
+   "lag_h": 2.1,
+   "td_min": 40,
+   "t_thr_h": 6.53,
+   "n6": 57680,
+   "over": false
+  },
+  {
+   "n0": 1000,
+   "lag_h": 2.1,
+   "td_min": 49,
+   "t_thr_h": 7.53,
+   "n6": 27389,
+   "over": false,
+   "src": "McElroy 2000，熟米饭 30°C"
+  },
+  {
+   "n0": 1000,
+   "lag_h": 2.5,
+   "td_min": 42.3,
+   "t_thr_h": 7.18,
+   "n6": 31223,
+   "over": false,
+   "src": "Vessoni 2002，熟米饭 33°C"
+  }
+ ],
+ "hotter": {
+  "C25": {
+   "lag_h": 8.0,
+   "td_min": 59.0,
+   "t_thr_h": 14.53
+  },
+  "C33": {
+   "lag_h": 2.5,
+   "td_min": 42.3,
+   "t_thr_h": 7.18
+  },
+  "ratio": 2.024,
+  "same_h": 7.18,
+  "n25_at_same": 1000,
+  "n33_at_same": 99615
+ },
+ "listing": [
+  {
+   "text": "30度 / 30°C",
+   "source": "假设 room_C",
+   "value": "30"
+  },
+  {
+   "text": "4°C",
+   "source": "假设 fridge_C",
+   "value": "4"
+  },
+  {
+   "text": "6个小时（两次）",
+   "source": "12:00→18:00",
+   "value": "6"
+  },
+  {
+   "text": "中午 12:00 / 傍晚 18:00",
+   "source": "假设 left_start/left_end",
+   "value": "12:00/18:00"
+  },
+  {
+   "text": "一两个小时（发芽）",
+   "source": "假设 lag_h；熟米饭实测 2.1–2.5 h",
+   "value": "1.5"
+  },
+  {
+   "text": "二三十分钟（翻一倍）",
+   "source": "假设 doubling_min=25，事实范围 20–30",
+   "value": "25"
+  },
+  {
+   "text": "1000个（起始、右碗）",
+   "source": "假设 N0",
+   "value": "1000"
+  },
+  {
+   "text": "一百多万个（6 小时）",
+   "source": "计算",
+   "value": "1782888"
+  },
+  {
+   "text": "十万以上（产毒）",
+   "source": "假设=事实 10⁵",
+   "value": "100000"
+  },
+  {
+   "text": "已放置 04:16（雾开始出现）",
+   "source": "计算",
+   "value": "04:16"
+  },
+  {
+   "text": "一小时内（进冰箱）",
+   "source": "假设 right_room_h；事实 FSA 1 h / USDA 2 h",
+   "value": "1.0"
+  },
+  {
+   "text": "日历 23 小时 vs 室温 1 小时",
+   "source": "计算",
+   "value": "23/1"
+  },
+  {
+   "text": "121度加热一个多小时（毒素不坏）",
+   "source": "事实 MPI/FS269 80 min",
+   "value": "121°C/80min"
+  },
+  {
+   "text": "一天内吃完",
+   "source": "事实 FSA",
+   "value": "1"
+  },
+  {
+   "text": "只热一次（终局卡）",
+   "source": "事实 FSA/香港食安中心",
+   "value": "1"
+  },
+  {
+   "text": "对数刻度 10 / 10³ / 10⁶",
+   "source": "HUD 刻度",
+   "value": "10,1e3,1e6"
+  },
+  {
+   "text": "回锅后左碗约 10 个/克（不念，只画）",
+   "source": "假设 residual_spore_frac",
+   "value": "10.0"
+  },
+  {
+   "text": "25°C / 33°C 两只秒表同走 07:11，菌数 1,000 对 10 万（只画）",
+   "source": "事实 Vessoni 2002 → [9] 计算",
+   "value": "7.18 h：1,000/99,615"
+  },
+  {
+   "text": "毒素条“约 4 小时起产毒”（只画）",
+   "source": "计算，同“已放置 04:16”",
+   "value": "4.27 h"
+  }
+ ]
+}

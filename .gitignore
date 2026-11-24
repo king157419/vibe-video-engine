@@ -1,0 +1,40 @@
+# 依赖与构建产物
+node_modules/
+.venv/
+venv/
+__pycache__/
+dist/
+build/
+out/
+*.map
+*.log
+
+# 本机环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 成片、素材、配音、截图（体积大，只留在本地）
+成片/
+video-engine/public/
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ttf
+*.otf
+*.zip
+
+# 代理工具本机状态
+.omx/
+.omc/
+.claude/settings.local.json
